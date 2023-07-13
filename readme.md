@@ -1,22 +1,22 @@
-#### 'Doctor Appointment System - MERN'
+## Doctor Appointment System - MERN
 
-## mkdir doctor_appointment_system
+### 'mkdir doctor_appointment_system'
 
-## cd doctor_appointment_system
+### 'cd doctor_appointment_system'
 
-### 'Admin Part'
+## Admin Part
 
 ### 'create a package.json file'
 
-## npm init -y
+### 'npm init -y'
 
-### 'Create a gitignore file'
+## Create a gitignore file
 
-## .gitignore
+### '.gitignore'
 
-### 'Install all required packages'
+## Install all required packages
 
-## npm install express morgan colors dotenv nodemon mongoose jsonwebtoken bcryptjs
+### 'npm install express morgan colors dotenv nodemon mongoose jsonwebtoken bcryptjs'
 
 https://www.npmjs.com/package/morgan
 https://expressjs.com/en/starter/installing.html
@@ -27,7 +27,7 @@ https://www.npmjs.com/package/mongoose
 https://www.npmjs.com/package/jsonwebtoken
 https://www.npmjs.com/package/bcryptjs
 
-### 'Github Setup'
+## Github Setup
 
 git init
 git add README.md
