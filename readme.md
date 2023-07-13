@@ -1,10 +1,10 @@
-## Doctor Appointment System - MERN
+# Doctor Appointment System - MERN
 
 ### 'mkdir doctor_appointment_system'
 
 ### 'cd doctor_appointment_system'
 
-## Admin Part
+# Admin Part
 
 ### 'create a package.json file'
 
@@ -18,32 +18,32 @@
 
 ### 'npm install express morgan colors dotenv nodemon mongoose jsonwebtoken bcryptjs'
 
-# https://www.npmjs.com/package/morgan
+### https://www.npmjs.com/package/morgan
 
-# https://expressjs.com/en/starter/installing.html
+### https://expressjs.com/en/starter/installing.html
 
-# https://www.npmjs.com/package/colors
+### https://www.npmjs.com/package/colors
 
-# https://www.npmjs.com/package/dotenv
+### https://www.npmjs.com/package/dotenv
 
-# https://www.npmjs.com/package/nodemon
+### https://www.npmjs.com/package/nodemon
 
-# https://www.npmjs.com/package/mongoose
+### https://www.npmjs.com/package/mongoose
 
-# https://www.npmjs.com/package/jsonwebtoken
+### https://www.npmjs.com/package/jsonwebtoken
 
-# https://www.npmjs.com/package/bcryptjs
+### https://www.npmjs.com/package/bcryptjs
 
-## Github Setup
+# Github Setup
 
-# git init
+### git init
 
-# git add README.md
+### git add README.md
 
-# git commit -m "first commit"
+### git commit -m "first commit"
 
-# git branch -M main
+### git branch -M main
 
-# git remote add origin https://github.com/sushantapatra/Doctor-Appointment-System-MERN.git
+### git remote add origin https://github.com/sushantapatra/Doctor-Appointment-System-MERN.git
 
-# git push -u origin main
+### git push -u origin main
