@@ -43,6 +43,28 @@
 
 ### `npm run server`
 
+# Create React App for Client
+
+### `npx create-react-app client`
+
+** inside the client app nodemodules add in .gitignorefiles in rootpath **
+
+### `cd client`
+
+## Starts the development server.
+
+### `npm start`
+
+## Bundles the app into static files for production.
+
+### `npm run build`
+
+# Lets Start the Frontend part using REACT
+
+## install all requiremt packages
+
+### `npm i react-router-dom axios antd`
+
 # Github Setup
 
 **git init**
