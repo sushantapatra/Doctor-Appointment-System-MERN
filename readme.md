@@ -27,6 +27,22 @@
 **https://www.npmjs.com/package/jsonwebtoken**
 **https://www.npmjs.com/package/bcryptjs**
 
+### Changes on package.json file
+
+    "main": "server.js",
+    "scripts": {
+    	"test": "echo \"Error: no test specified\" && exit 1",
+    	"start": "node server.js",
+    	"server": "nodemon server.js"
+    },
+    "keywords": [],
+    "author": "Sushanta Patra",
+    "license": "MIT",
+
+# Start the Server
+
+### `npm run server`
+
 # Github Setup
 
 **git init**
