@@ -16,7 +16,7 @@
 
 ## Install all required packages
 
-### `npm install express morgan colors dotenv nodemon mongoose jsonwebtoken bcryptjs`
+### `npm install express morgan colors dotenv nodemon mongoose jsonwebtoken bcryptjs concurrently`
 
 **https://www.npmjs.com/package/morgan**
 **https://expressjs.com/en/starter/installing.html**
@@ -26,6 +26,7 @@
 **https://www.npmjs.com/package/mongoose**
 **https://www.npmjs.com/package/jsonwebtoken**
 **https://www.npmjs.com/package/bcryptjs**
+**https://www.npmjs.com/package/concurrently**
 
 ### Changes on package.json file
 
