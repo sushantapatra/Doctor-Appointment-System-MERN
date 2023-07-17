@@ -2,9 +2,12 @@ const express = require("express");
 const colors = require("colors");
 const morgan = require("morgan");
 const dotenv = require("dotenv");
+const connectDB = require("./config/db");
 
 //dotenv configuration
 dotenv.config();
+//MongoDb Connection
+connectDB();
 //rest objectt
 const app = express();
 
@@ -18,6 +21,9 @@ app.get("/", (req, res) => {
 		message: "Server running...",
 	});
 });
+
+// Define all User Router Here
+app.use("/api/v1/user", require("./routes/userRouter"));
 
 //listen port
 const port = process.env.PORT || 8080;

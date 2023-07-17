@@ -44,6 +44,12 @@
 
 ### `npm run server`
 
+### `brew services stop mongodb-community@6.0``
+
+### `brew services start mongodb-community@6.0`
+
+`
+
 # Create React App for Client
 
 ### `npx create-react-app client`
