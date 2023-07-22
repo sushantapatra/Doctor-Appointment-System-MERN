@@ -48,7 +48,13 @@
 
 ### `brew services start mongodb-community@6.0`
 
-`
+1- Setup Server using express
+2-All the requirement details in .env file
+3-Create a user model in mongo db
+4-Create a user registration controller for user registarion
+5-Create a Login controller for user login
+i-Login with jwt token
+ii-Create a middleware to validate/authorization jwt token
 
 # Create React App for Client
 

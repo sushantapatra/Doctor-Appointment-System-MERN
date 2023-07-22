@@ -8,7 +8,6 @@ const Login = () => {
 	const navigate = useNavigate();
 	//form Handler
 	const onFinishHandler = async (values) => {
-		console.log(values);
 		try {
 			const res = await axios.post("/api/v1/user/login", values);
 			if (res.data.success) {

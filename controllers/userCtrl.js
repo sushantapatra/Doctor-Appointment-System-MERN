@@ -18,7 +18,7 @@ const loginController = async (req, res) => {
 			});
 		}
 		//Generate JWT Token
-		const token = jwt.sign({ id: user.__id }, process.env.JWT_SECRET, {
+		const token = jwt.sign({ id: user._id }, process.env.JWT_SECRET, {
 			expiresIn: "1d",
 		});
 		return res.status(200).send({
@@ -65,4 +65,28 @@ const registerController = async (req, res) => {
 	}
 };
 
-module.exports = { loginController, registerController };
+const authController = async (req, res) => {
+	try {
+		const user = await userModel.findOne({ _id: req.body.userId });
+		if (!user) {
+			resizeTo
+				.status(200)
+				.send({ success: false, message: "User not found" });
+		} else {
+			res.status(200).send({
+				success: true,
+				data: {
+					name: user.name,
+					email: user.email,
+				},
+			});
+		}
+	} catch (error) {
+		console.log(error);
+		res.status(500).send({
+			success: false,
+			message: `Auth Controller Error : ${error.message}`,
+		});
+	}
+};
+module.exports = { loginController, registerController, authController };
