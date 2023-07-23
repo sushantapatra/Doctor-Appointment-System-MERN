@@ -64,6 +64,8 @@ ii-Create a middleware to validate/authorization jwt token
 
 ### `cd client`
 
+### `npm install react-router-dom axios antd @reduxjs/toolkit react-redux react-spinners`
+
 ## Starts the development server.
 
 ### `npm start`
